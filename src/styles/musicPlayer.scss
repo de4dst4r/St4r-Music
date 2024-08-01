@@ -1,0 +1,44 @@
+/* src/components/common/Player.scss */
+
+.player {
+    min-width: 500px;
+    min-height: 500px;
+    width: 500px; /* 设置播放器宽度 */
+    height: 500px; /* 设置播放器高度 */
+    margin: 20px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.record {
+    width: 200px; /* 黑胶唱片直径 */
+    height: 200px; /* 黑胶唱片高度 */
+    border: 5px solid #333; /* 黑胶唱片边框 */
+    border-radius: 50%; /* 圆形外观 */
+    background-color: black; /* 黑胶唱片内部颜色 */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hole {
+    width: 30px; /* 中心孔的大小 */
+    height: 30px; /* 中心孔的高度 */
+    background-color: #fff; /* 中心孔的颜色 */
+    border-radius: 50%; /* 圆形 */
+    position: absolute;
+}
+
+.controls {
+    margin-top: 20px; /* 控制按钮与唱片间距 */
+    display: flex;
+    flex-direction: row;
+}
+
+.control-button {
+    margin: 0 5px; /* 按钮之间的间隔 */
+}
